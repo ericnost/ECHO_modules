@@ -38,7 +38,7 @@ class DataSet:
         self.date_format = date_format
         self.agg_type = agg_type            #The type of aggregation to be performed - summing emissions or counting violations, e.g.
         self.agg_col = agg_col              #The field to aggregate by
-        self.units = units                  #Units
+        self.unit = unit                    #Unit of measure
         self.sql = sql                      #The SQL query to retrieve the data 
         
     def get_data( self, ee_ids, int_flag=False ):
