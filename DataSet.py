@@ -26,7 +26,7 @@ def get_data( sql, index_field=None ):
 # to retrieve data from the database.
 class DataSet:
     def __init__( self, name, table_name, echo_type=None,
-                 idx_field=None, date_field=None, date_format=None, sql=None, agg_type=None, agg_col=None):
+                 idx_field=None, date_field=None, date_format=None, sql=None, agg_type=None, agg_col=None, unit=None):
         # the echo_type can be a single string--AIR, NPDES, RCRA, SDWA,
         # or a list of multiple strings--['GHG','TRI']
 
